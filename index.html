@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradise on Earth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100;300;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="d-flex overflow-x-hidden overflow-y-auto flex-column justify-content-start align-content-center"
+  >
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-transparent"
+      style="background-color: #bca37f !important"
+    >
+      <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <img src="asset/LOGO.png" alt="LOGO" width="65px" />
+        </a>
+        <!-- toggle button -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- side bar  -->
+        <div
+          class="sidebar offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- side bar header -->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Side Menu</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- side bar body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="side-menu navbar-nav justify-content-end align-items-center fs-5 flex-grow-1"
+            >
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#tips">Tips</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#destination">Destination</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <div
+      class="home d-flex flex-column align-items-center justify-content-center"
+    >
+      <div
+        class="content d-flex flex-column align-items-center justify-content-center"
+      >
+        <h5>Discover New World</h5>
+        <h1>Bali Island of <span class="changecontent"></span></h1>
+        <p>
+          breathtaking landscapes and vibrant culture create a truly unique
+          experience.
+        </p>
+        <a class="btn btn-primary" href="#destination">Explore Now</a>
+      </div>
+    </div>
+    <!-- Home Section End -->
+
+    <!-- About Start -->
+    <section class="About" id="about">
+      <div class="container">
+        <div
+          class="main-txt d-flex flex-column align-items-center align-content-center"
+        >
+          <h1 class="heading fw-bold">
+            <span style="color: #bca37f">Bali</span> - Where Paradise Awaits
+          </h1>
+        </div>
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="asset/timur-kozmenko-WH_61ud2YH0-unsplash.jpg" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-md-6 py-3 py-md-0 d-flex flex-column justify-content-center align-items-center align-content-center gap-3"
+          >
+            <h2 class="text-center">
+              Bali is unparalleled, Bali is extraordinary
+            </h2>
+            <p class="text-center">
+              There is simply no destination quite like Bali. It's a harmonious
+              fusion of rich culture, warm hospitality, breathtaking landscapes,
+              a myriad of activities, tropical climate, gastronomic delights,
+              buzzing nightlife, and exceptional accommodations. Bali
+              consistently ranks among the top travel destinations globally, and
+              it's no surprise. There's something magnificent for everyone to
+              uncover and relish.
+            </p>
+            <div class="About-btn">
+              <a class="btn btn-primary" href="#destination">Explore Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Essential Tips Start -->
+    <section class="tips" id="tips">
+      <div class="heading">
+        <h3>Essential Tips</h3>
+      </div>
+      <div class="card-content">
+        <div class="row">
+          <i class="fas fa-language"></i>
+          <div class="card-body">
+            <h3>Learn Basic Indonesian Phrases</h3>
+            <p>
+              Enhance your adventure by learning basic Indonesian phrases. This
+              small effort can greatly enrich your experience, fostering more
+              meaningful connections with locals and make your journey
+              enjoyable.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <i class="fas fa-credit-card"></i>
+          <div class="card-body">
+            <h3>Currency and Payment Options</h3>
+            <p>
+              Carry both credit cards from major international banks, widely
+              accepted across Bali, and some American dollars or Indonesian
+              Rupiah in cash for small purchases and places with limited card
+              acceptance.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <i class="fas fa-location-dot"></i>
+          <div class="card-body">
+            <h3>Simplify Bali Travel: Choose Scooter Taxis</h3>
+            <p>
+              In Bali, scooters rule the road due to traffic and parking
+              hassles. Skip renting and call a scooter taxi via Gojek or Grab
+              apps. They're pros at navigating the chaos, and it's
+              wallet-friendly.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <i class="fas fa-file-contract"></i>
+          <div class="card-body">
+            <h3>Don't Forget Travel Insurance!</h3>
+            <p>
+              Ensure peace of mind during your journey with comprehensive travel
+              insurance. From flight cancellations to medical emergencies, it
+              shields your trip and your well-being from the unexpected.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <i class="fas fa-sim-card"></i>
+          <div class="card-body">
+            <h3>Stay Connected with Local SIM Cards</h3>
+            <p>
+              Consider purchasing a local SIM card upon arrival to have access
+              to affordable data plans. This will keep you connected, aid
+              navigation, and provide access to apps for transportation and
+              translation.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <i class="fas fa-notes-medical"></i>
+          <div class="card-body">
+            <h3>Stay Informed about Health Precautions</h3>
+            <p>
+              Stay updated on any health precautions needed before traveling to
+              Bali. Consult with a healthcare professional or check government
+              travel advisories for health-related recommendations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Essential Tips End -->
+
+    <!-- Destination Start -->
+    <section class="destination" id="destination">
+      <h1 class="heading"><span>Destination</span> List</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="asset/ubud2.jpg" alt="ubud" />
+              <div class="card-body">
+                <h3>Ubud</h3>
+                <h5>Bali's Cultural Gem</h5>
+                <p>
+                  Nestled in mystical forests, Ubud is Bali's artistic and
+                  cultural hub. Explore vibrant ceremonies, exquisite temples,
+                  and a diverse culinary scene. An enchanting blend of art and
+                  spirituality.
+                </p>
+                <div class="About-btn">
+                  <a class="btn btn-secondary" href="ubud.html">Learn More.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="asset/canggu.jpg" alt="canggu" />
+              <div class="card-body">
+                <h3>Canggu</h3>
+                <h5>Bali's Surfer's Paradise</h5>
+                <p>
+                  Surfing, sunsets, and vibrant cuisine. Wide beaches, diverse
+                  accommodations, and a hub for yoga and dining. The perfect
+                  blend of local culture and international vibes.
+                </p>
+                <div class="About-btn">
+                  <a class="btn btn-secondary" href="canggu.html"
+                    >Learn More.</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="asset/lovina.jpg" alt="Lovina" />
+              <div class="card-body">
+                <h3>Lovina</h3>
+                <h5>Lovina's Coastal Bliss</h5>
+                <p>
+                  Discover sunrise dolphin tours, serene beaches, and an
+                  authentic taste of Bali. Experience uncrowded shores,
+                  laid-back charm, and a doorway to aquatic adventures.
+                </p>
+                <div class="About-btn">
+                  <a class="btn btn-secondary" href="lovina.html"
+                    >Learn More.</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Destination End -->
+
+    <!-- Section Gallery Start -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="heading main-txt">
+          <h1>Gallery</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/hakan-nural-DwkaHBiv1K0-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/florian-giorgio-PSJ-B59f-LE-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/sven-piek-jH7EBc1GvCg-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/mauro-fabio-cilurzo-HRIOPiwqpmw-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/mathis-jrdl--RIHgVIKjYI-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img
+                src="asset/magnus-lunay-M92Q4rBrt7g-unsplash.jpg"
+                alt=""
+                height="230px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Gallery End -->
+
+    <!-- Footer Start -->
+    <footer
+      id="footer"
+      class="p-4 d-flex flex-column align-items-center justify-content-center gap-2"
+    >
+      <a class="navbar-brand" href="#">
+        <img src="asset/LOGO.png" alt="LOGO" width="65px" />
+      </a>
+      <p style="color: white; width: 70%">
+        Discover Bali's beauty, culture, and endless possibilities. Plan your
+        dream getaway with us, and let Bali.com be your trusted companion in the
+        journey. Your adventure begins here.
+      </p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script js -->
+    <script src="script.js"></script>
+  </body>
+</html>
