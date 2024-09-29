@@ -5,7 +5,7 @@ A simple website introducing the beauty of Bali, complete with travel tips and m
 Whether you're exploring the vibrant surf scene in Canggu, the cultural heart of Ubud, or the tranquil beaches of 
 Lovina, this guide covers it all. Discover hidden gems, plan your itinerary, and get insider tips to make the most of your Bali adventure.
 
-![index](resources/home.gif)
+![home](resources/home.gif)
 
 ### Built With
 
